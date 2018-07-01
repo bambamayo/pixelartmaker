@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%; /* (10px / 16px * 100%) */ 
+}
+body {
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+    margin: 0.2rem;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 1rem 0 0.25rem;
+}
+
+h2:first-of-type {
+    margin-top: 0.5rem;
+}
+
+span {
+    font-size: 1.7rem;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 3rem;
+}
+
+td {
+    width: 3rem;
+}
+
+input[type=number] {
+    width: 4rem;
+}
+
+
